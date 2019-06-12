@@ -7,9 +7,6 @@ html {
 body {
   margin: 0;
 }
-/* *, *:before, *:after {
-    box-sizing: inherit;
-} */
 .panels {
   min-height: 100vh;
   overflow: hidden;
@@ -19,7 +16,7 @@ body {
   text-align: center;
   align-items: center;
   transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11),
-    flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+     flex 0.7s cubic-bezier(0.42, 0, 1, 1);
   font-size: 2.75em;
   font-weight: bold;
   background-size: cover;
@@ -59,11 +56,11 @@ body {
   font-size: 2.5em;
 }
 .panel1 {
-  background-image: url("https://images.unsplash.com/photo-1493217465235-252dd9c0d632?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
-}
-.panel2 {
   background-image: url("https://cdn.pixabay.com/photo/2016/09/04/22/45/lego-1645498_960_720.jpg");
 }
+.panel2 {
+  background-image: url("https://i.imgur.com/ETI7WVR.jpg");
+}
 .panel3 {
-  background-image: url("https://cdn.pixabay.com/photo/2013/03/06/12/25/heads-90869_960_720.jpg");
+  background-image: url("https://i.imgur.com/sbe5SZq.jpg");
 }
